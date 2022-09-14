@@ -1,7 +1,5 @@
 import base64
 import os
-from cryptography.fernet import Fernet
-from cryptography.hazmat.primitives import hashes
 import pyscrypt
 #informing the user on what the program does
 print("This is a password to key generator")
