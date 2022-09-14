@@ -302,6 +302,14 @@ python-versions = ">=3.6.8"
 diagrams = ["railroad-diagrams", "jinja2"]
 
 [[package]]
+name = "pyscrypt"
+version = "1.6.2"
+description = "Pure-Python Implementation of the scrypt password-based key derivation function and scrypt file format library"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "python-lsp-jsonrpc"
 version = "1.0.0"
 description = "JSON RPC 2.0 server library"
@@ -515,7 +523,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "f34c0dad4e4e762c4c7ab8bc0569473ae8b25ff4a4d7ca925a02a734eadb85c9"
+content-hash = "a4809491a81cab08423330c1fc6604e943f3d0bc9e73a112c271979b3da44858"
 
 [metadata.files]
 aiohttp = []
@@ -545,6 +553,7 @@ pluggy = []
 pycparser = []
 pyflakes = []
 pyparsing = []
+pyscrypt = []
 python-lsp-jsonrpc = []
 python-lsp-server = []
 pytoolconfig = []
