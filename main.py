@@ -1,7 +1,8 @@
+
 import base64
 import os
 import pyscrypt
-#informing the user on what the program does
+
 print("This is a password to key generator")
 print("Enter a password below ")
 
@@ -31,6 +32,3 @@ key = base64.urlsafe_b64encode(scrypt_key)
 
 print("Here's your key")
 print(key)
-
-
-
